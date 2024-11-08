@@ -12,56 +12,114 @@
 
 <body>
     <div class="home-container">
-        <header class="bemvindo">
-            <a href="fotos.html">
-                <img src="images/logo-fotografia.jpg" alt="logo do fotografias" class="logo1">
-            </a>
-            <h1>Bem-vindo à FotoTrix Fotografias</h1>
-            <p>Transformando momentos em histórias</p>
-            <a href="#contato" class="contato-button">Entre em Contato</a>
+        <header class="site-header">
+            <div class="header-content">
+                <div class="nome">
+                    <a href="index.html">
+                        <img src="images/logo-fotografia.jpg" alt="Logo" class="logo">
+                    </a>
+                    <h1>FotoTrix Fotografias</h1>
+                </div>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+
+        <section id="portfolio1" class="portfolio-grid">
+            <div class="grid-item"><img src="images/aniversario1.jpg" alt="aniversario 1"></div>
+            <div class="grid-item"><img src="images/aniversario2.webp" alt="aniversario 2"></div>
+            <div class="grid-item"><img src="images/aniversario3.jpg" alt="aniversario 3"></div>
+            <div class="grid-item"><img src="images/aniversario4.webp" alt="aniversario 4"></div>
+            <div class="grid-item"><img src="images/aniversario5.jpg" alt="aniversario 5"></div>
+            <div class="grid-item"><img src="images/aniversario6.webp" alt="aniversario 6"></div>
+            <div class="grid-item"><img src="images/aniversario7.webp" alt="aniversario 7"></div>
+            <div class="grid-item"><img src="images/aniversario8.jpg" alt="aniversario 8"></div>
+            <div class="grid-item"><img src="images/casamento1.webp" alt="casamento 1"></div>
+            <div class="grid-item"><img src="images/casamento2.jpg" alt="casamento 2"></div>
+            <div class="grid-item"><img src="images/casamento3.jpg" alt="casamento 3"></div>
+            <div class="grid-item"><img src="images/casamento4.jpg" alt="casamento 4"></div>
+            <div class="grid-item"><img src="images/casamento5.jpg" alt="casamento 5"></div>
+            <div class="grid-item"><img src="images/casamento6.webp" alt="casamento 6"></div>
+            <div class="grid-item"><img src="images/casamento7.webp" alt="casamento 7"></div>
+            <div class="grid-item"><img src="images/casamento8.webp" alt="casamento 8"></div>
+            <div class="grid-item"><img src="images/pessoais1.webp" alt="pessoais 1"></div>
+            <div class="grid-item"><img src="images/pessoais2.jpg" alt="pessoais 2"></div>
+            <div class="grid-item"><img src="images/pessoais3.jpg" alt="pessoais 3"></div>
+            <div class="grid-item"><img src="images/pessoais4.jpg" alt="pessoais 4"></div>
+            <div class="grid-item"><img src="images/pessoais5.webp" alt="pessoais 5"></div>
+            <div class="grid-item"><img src="images/pessoais6.jpg" alt="pessoais 6"></div>
+            <div class="grid-item"><img src="images/pessoais7.jpg" alt="pessoais 7"></div>
+            <div class="grid-item"><img src="images/pessoais8.webp" alt="pessoais 8"></div>
+            <div class="grid-item"><img src="images/aniversario3.jpg" alt="aniversario 3"></div>
+        </section>
+
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div class="modal-navigation">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+        </div>        
 
         <section id="servicos" class="servicos-section">
             <h2>Nossos Serviços</h2>
             <div class="servicos-list">
                 <div class="servico-item">
-                    <h3>Casamentos</h3>
-                    <p>Capturamos os momentos mais especiais do seu grande dia com emoção e elegância. Nossas fotos
-                        buscam contar a história do seu casamento de forma única, registrando cada sorriso, gesto e
-                        sentimento.
-                    </p>
-                    <a href="casamentos.html" class="lermais">Saiba Mais</a>
+                    <img src="images/casamento7.webp" alt="Casamentos" class="servico-img">
+                    <div class="servico-texto">
+                        <h3>Casamentos</h3>
+                        <p>Capturamos os momentos mais especiais do seu grande dia com emoção e elegância. Nossas fotos
+                            buscam contar a história do seu casamento de forma única, registrando cada sorriso, gesto e
+                            sentimento.
+                        </p>
+                        <a href="casamentos.html" class="lermais">Saiba Mais</a>
+                    </div>
                 </div>
                 <div class="servico-item">
-                    <h3>Aniversários</h3>
-                    <p>Transformamos a celebração do seu aniversário em memórias inesquecíveis. Cada sorriso, surpresa e
-                        alegria é registrada com carinho e autenticidade, para que você reviva esses momentos especiais
-                        por toda a vida.
-                    </p>
-                    <a href="aniversarios.html" class="lermais">Saiba Mais</a>
+                    <img src="images/aniversario5.jpg" alt="Aniversários" class="servico-img">
+                    <div class="servico-texto">
+                        <h3>Aniversários</h3>
+                        <p>Transformamos a celebração do seu aniversário em memórias inesquecíveis. Cada sorriso,
+                            surpresa e
+                            alegria é registrada com carinho e autenticidade, para que você reviva esses momentos
+                            especiais
+                            por toda a vida.
+                        </p>
+                        <a href="aniversarios.html" class="lermais">Saiba Mais</a>
+                    </div>
                 </div>
                 <div class="servico-item">
-                    <h3>Fotos pessoais</h3>
-                    <p>Cada momento único da sua vida merece ser eternizado de forma autêntica. Criamos imagens que
-                        refletem a sua essência, para que você possa reviver suas memórias com um toque pessoal e
-                        especial.
-                    </p>
-                    <a href="pessoais.html" class="lermais">Saiba Mais</a>
+                    <img src="images/pessoais7.jpg" alt="Fotos pessoais" class="servico-img">
+                    <div class="servico-texto">
+                        <h3>Fotos pessoais</h3>
+                        <p>Cada momento único da sua vida merece ser eternizado de forma autêntica. Criamos imagens que
+                            refletem a sua essência, para que você possa reviver suas memórias com um toque pessoal e
+                            especial.
+                        </p>
+                        <a href="pessoais.html" class="lermais">Saiba Mais</a>
+                    </div>
                 </div>
             </div>
         </section>
+
 
         <section id="portfolio" class="portfolio-section">
             <h2>Portfólio</h2>
             <p>Veja algumas das histórias que já realizamos.</p>
             <div class="cards-portfolio">
-                <a href="fotos.html" class="card-adventure">
+                <a href="#portfolio1" class="card-adventure">
                     <img src="images/aniversario5.jpg" alt="Fotos Portfólio">
                 </a>
-                <a href="fotos.html" class="card-adventure">
+                <a href="#portfolio1" class="card-adventure">
                     <img src="images/casamento2.jpg" alt="Fotos Portfólio">
                 </a>
-                <a href="fotos.html" class="card-adventure">
+                <a href="#portfolio1" class="card-adventure">
                     <img src="images/pessoais1.webp" alt="Fotos Portfólio">
                 </a>
             </div>
@@ -109,6 +167,8 @@
             </p>
         </footer>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
